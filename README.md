@@ -16,6 +16,17 @@ This script will create a new directory with the name of the project. Inside thi
 3. **Console App** </br>
     This project will contain the main method to run the code. This project will add a reference to the class library project directly. This project can be used to run the code for adhoc testing.
 
+### Prerequisites
+
+This package requires the .NET SDK to be installed.
+
+##### Install .NET
+1. Visit the [official .NET download page](https://dotnet.microsoft.com/download).
+2. Follow the instructions for your operating system.
+3. Verify the installation by running:
+   ```bash
+   dotnet --version
+   ```
 
 ### Command:
 
