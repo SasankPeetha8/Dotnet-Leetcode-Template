@@ -1,16 +1,24 @@
 # Dotnet-Leetcode-Template
 
+### About:
 This repository contains automation script that helps me to create required DotNet projects in specified directory preference.
 
+### Description:
 This script is used as a template to create DotNet projects (tailored to my own preference) which can be used for solving Leet code challenges directly.
 
 This script will create a new directory with the name of the project. Inside this directory, the following projects are created:
-1. **Class Library**
+1. **Class Library** </br>
     This project will contain all the classes and methods to solve the Leet code challenges.
-2. **Unit Test Project**
+</br>
+</br>
+2. **Unit Test Project** </br>
     This project will contain all the unit tests for the classes and methods in the class library. This project will add a reference to the class library project directly.
-3. **Console App**
+</br>
+</br>
+3. **Console App** </br>
     This project will contain the main method to run the code. This project will add a reference to the class library project directly. This project can be used to run the code for adhoc testing.
+</br>
+</br>
 
 ### Command:
 
