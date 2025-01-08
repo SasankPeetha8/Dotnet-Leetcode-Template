@@ -16,11 +16,11 @@ This script will create a new directory with the name of the project. Inside thi
 3. **Console App** </br>
     This project will contain the main method to run the code. This project will add a reference to the class library project directly. This project can be used to run the code for adhoc testing.
 
-### Prerequisites
+### Prerequisites:
 
 This package requires the .NET SDK to be installed.
 
-##### Install .NET
+##### Install .NET:
 1. Visit the [official .NET download page](https://dotnet.microsoft.com/download).
 2. Follow the instructions for your operating system.
 3. Verify the installation by running:
@@ -28,10 +28,23 @@ This package requires the .NET SDK to be installed.
    dotnet --version
    ```
 
+### Installation:
+
+To install it as pip package, use the following command:
+```
+pip install dotnet-leetcode-template
+```
+
 ### Command:
 
+If you've cloned the repository, then use the following command:
 ```
 dotnet-project.py [-h] -n  -s  [-f] [--use-program-main]
+```
+
+If you've installed the pip package, then use the following command:
+```
+dotnet-leetcode-template [-h] -n -s -[f] [--use-program-main]
 ```
 
 ### Usage: 

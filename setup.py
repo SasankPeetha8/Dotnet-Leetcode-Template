@@ -26,9 +26,9 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
-        'Programming Language :: Python :: 3.10 :: CPython',
+        'Programming Language :: Python :: 3.10',
         'Operating System :: OS Independent',
-        'Topic :: Software Development :: Build Tools :: Automation',
+        'Topic :: Software Development :: Build Tools',
     ],
     # Defining the python version required
     python_requires='>=3.7',
